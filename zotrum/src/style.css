@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+html {
+   scroll-behavior: smooth;
+}
 
 
 :root {
@@ -123,8 +126,12 @@ body {
     margin: 0;
     font-family:system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
+
 }
 
+body p{
+    max-width:65ch;
+}
 /* body>* {
     outline: 1px solid blue;
 } */
@@ -140,22 +147,40 @@ main>* {
 
 section h1, h2, h3, h4{ font-family:sans-serif}
 
+header{
+    padding:20px clamp(20px, 5vw, 40px);
+}
 
-header {
-    padding: 1.5rem;
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    border:none;
     
 }
 
-header p {
-
-
-    border-radius: 1rem;
-    display: inline-block;
-    padding: 0.5rem 2rem 0.5rem 2rem;
-    font-size: 1rem;
-    color: green;
-    border:1px solid var(--bordaCard);
+.logo:hover{
+    outline:none;
 }
+
+.logo-icone{
+    font-size: 1.5rem;
+    font-weight:900;
+    color:#1e40af;
+    letter-spacing: -1px;
+    border:none;
+}
+
+.logo-texto {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color:#0f172a;
+    letter-spacing: 2px;
+}
+
+
+
 
 /* 1º seção hero */
 
@@ -178,13 +203,25 @@ header p {
 .hero2 {
 
     box-shadow: var(--sombras);
-    padding: clamp(1.5rem, 3vw, 2rem);
+    padding: clamp(1rem, 3vw, 2rem);
    
     
  
     
 
 
+}
+
+
+ .hero2 .pHe {
+
+    
+    border-radius: 1rem;
+    display: inline-block;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 1rem;
+    color: green;
+    border:1px solid var(--bordaCard);
 }
 
 .hero2 h1 {
@@ -244,7 +281,7 @@ a {
 /* Expansão inverso geral de todas as seções */
 
 section {
-    padding: clamp(3rem, 6vw, 6rem) 1rem;
+    padding: clamp(3rem, 6vw, 6rem) clamp(10px, 2vw, 20px);
 
 }
 
@@ -264,7 +301,7 @@ section h3 {
 
 section div {
 
-    padding:clamp(1.5rem, 3vw, 2rem);
+    padding:clamp(1rem, 3vw, 2rem);
     margin-bottom: 2rem;
     border-radius:0.5rem;
   
@@ -412,6 +449,7 @@ section div {
     font-size:clamp(16px, 2vw,18px);
     text-align:center;
     margin-bottom:2rem;
+    margin:0 auto 2rem auto;
     
 
 }
@@ -543,6 +581,19 @@ section div {
     padding:14px 28px;
     border-radius:8px;
     color:#0f172a;
+    
+
+}
+
+.nota-rodape{
+    font-size:0.875rem;
+    text-align:left;
+    max-width: 700px;
+    margin: 20px auto 0;
+    color:#475569;
+    padding:16px;
+    background-color: #f8fafc;
+    border-radius: 8px;
     
 }
 

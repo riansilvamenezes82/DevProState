@@ -3,6 +3,11 @@
     box-sizing:border-box;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
+
 :root{
     /* Padrões de colunas */
     --cln:repeat(auto-fit, minmax(280px, 1fr));
@@ -130,7 +135,12 @@ p{
     display:flex;
     flex-wrap:wrap;
     gap:1.5rem;
+    
 }
+
+   .sobre-numeros .numero-card{
+    margin-bottom:0;
+   }
 
 
 
@@ -406,6 +416,7 @@ section:nth-child(even){
  
     justify-content:center;
     /* outline:1px solid green; */
+    
    
 }
 
@@ -419,6 +430,7 @@ section:nth-child(even){
     text-align:center;
     box-shadow:0 4px 12px rgba(0,0,0,0.05);
     border:1px solid #e2e8f0;
+    margin-top:2rem;
 }
 
 .numero-valor {
@@ -513,8 +525,7 @@ footer .copy{
  .credito{
     font-size:12px;
     color:#94a3b8;
-    margin-top:10px;
-    margin:auto;
+    margin: 10px auto 0 auto;
     text-align:center;
 }
 
