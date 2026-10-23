@@ -785,6 +785,9 @@ section div {
 
 footer {
     padding:1rem;
-    
     text-align:center;
+}
+
+.copy{
+    margin:auto;
 }
