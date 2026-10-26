@@ -885,7 +885,7 @@ footer {
     display:grid;
     grid-template-columns:1fr;
     gap:40px;
-    padding-bottom:4rem;
+    padding-bottom:6rem;
     max-width:1100px;
     text-align:center;
 }

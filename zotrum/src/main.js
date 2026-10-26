@@ -12,7 +12,7 @@ document.querySelector(".btn-enviar").addEventListener("click", function (){
     const numeroWhatsApp = "5573981459793"
 
     const mensagem = `
-    Olá! Meu nome é ${nome}./nGostaria e saber mais sobre o plano ${plano}
+    Olá! Meu nome é ${nome}. Gostaria e saber mais sobre o plano ${plano}
     `
 
     const mensagemFormatada = encodeURIComponent(mensagem)
