@@ -98,11 +98,7 @@ html {
 
     }
 
-    body .servico2 ul li a{
-    display:flex;
-    justify-self:left;
-    align-self:center;
-}
+   
 
     body .info-servico{
     
@@ -453,7 +449,7 @@ section details{
 
 .servico2 ul li{
     /* outline:1px solid green; */
-    padding:32px 1rem;
+    padding:32px 2rem;
     border-radius:8px;
 
 }

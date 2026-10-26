@@ -358,9 +358,12 @@ section:nth-child(even){
 }
 
 .servico li a{
-    margin:1rem 0 1.5rem 0;
-    justify-self:start;
-    align-self:start;
+    
+    display:flex;
+    justify-content:center;
+    justify-self:center;
+    max-width:300px;
+    margin:auto;
 }
 
 .servico li{

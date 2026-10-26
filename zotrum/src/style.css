@@ -294,6 +294,8 @@ body a:hover {
 
 a {
     text-decoration: none;
+    font-weight:700;
+    
 }
 
 /* Expansão inverso geral de todas as seções */
@@ -547,13 +549,14 @@ section div {
 
 .cards1 a{
     
-    display:block;
+    display:flex;
+    justify-content:center;
     background-color:#25D366;
     border-radius:8px;
     padding:14px 28px;
     color:#0f172a;
-    margin:24px auto 0 auto;
-    width:fit-content;
+   
+    
  
 }
 
@@ -654,7 +657,6 @@ section div {
 
 .manutencao a{
     display:flex;
-    justify-self:center;
     justify-content:center;
     background-color:#25D366;
     padding:14px 28px;
@@ -731,13 +733,18 @@ section div {
     font-size:1rem;
 }
 
+.barbearia{
+    padding-bottom:1.8rem;
+}
+
 .sobre3 a{
     border:1px solid green;
     color:green;
     padding:14px 28px;
     border-radius:8px;
     font-size:1rem;
-    display:inline-block;
+    display:flex;
+    justify-content:center;
     margin-top:2rem;
 }
 
@@ -911,7 +918,7 @@ footer a{
     color:black;
     padding: 8px 16px;
     border-radius:8px;
-    background:#25D366;
+    background-color:#25D366;
     color:white;
     font-weight: 800;
     
@@ -921,6 +928,7 @@ footer a:hover{
     outline: none;
     border:1px solid #25D366;
     color:#25D366;
+    background-color:#e2e8f0;
     
     
     
