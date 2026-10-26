@@ -98,6 +98,18 @@ html {
 
     }
 
+    body .servico2 ul li a{
+    display:flex;
+    justify-self:left;
+    align-self:center;
+}
+
+    body .info-servico{
+    
+    width:20rem;
+   
+}
+
     
     body .container-galeria{
         grid-template-columns:repeat(2, minmax(280px, 1fr));
@@ -422,6 +434,11 @@ section details{
     text-align:center;
  }
 
+.info-servico{
+    color:#94a3b8;
+    
+   
+}
 
 .servico2 ul{
     list-style:none;
@@ -436,9 +453,22 @@ section details{
 
 .servico2 ul li{
     /* outline:1px solid green; */
-    padding:32px;
+    padding:32px 1rem;
     border-radius:8px;
 
+}
+
+.servico2 ul li a{
+    display:flex;
+    justify-content:center;
+}
+
+
+
+.preco-servico{
+    font-size:2rem;
+    color:#fbbf24;
+    font-weight:800;
 }
 
 section a:hover{
@@ -485,6 +515,11 @@ section a:hover{
 .container-galeria img:hover{
     transform: scale(1.03);
     filter: brightness(1.1);
+}
+
+.container-preco{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .metodo ul{
