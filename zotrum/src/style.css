@@ -303,13 +303,12 @@ section {
 
 }
 
-section:nth-child(even){
-   
-}
+
 
 section a:hover{
     transform:scale(1.1);
     transition: 0.3s;
+   
 }
 
 /* Ajustes de subtítulos de seções */
@@ -912,15 +911,19 @@ footer a{
     color:black;
     padding: 8px 16px;
     border-radius:8px;
-    border:3px solid #25D366;
-    color:#25D366;
+    background:#25D366;
+    color:white;
     font-weight: 800;
+    
 }
 
 footer a:hover{
     outline: none;
-    background:#25D366;
-    color:white;
+    border:1px solid #25D366;
+    color:#25D366;
+    
+    
+    
 }
 
 
