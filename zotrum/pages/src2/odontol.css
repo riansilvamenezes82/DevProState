@@ -23,7 +23,7 @@ body{
     margin:0;
     font-family:system-ui, -apple-system, 'Segoe UI',  sans-serif;
     color:#0f172a;
-    background:#ffffff;
+    background-color:#ffffff;
     
 }
 
@@ -82,7 +82,7 @@ p{
         top:0;
         right:0;
         padding:0;
-        background:none;
+        background-color:none;
         box-shadow:none;
     }
 
@@ -114,7 +114,7 @@ p{
     }
 
     body .ImgHero{
-        background:#ffffff;
+        background-color:#ffffff;
     }
 
     body .servico ul{
@@ -149,7 +149,12 @@ p{
     }
 
     body .ContainerFAQ .CTA{
-        background:none;
+        background-color:none;
+    }
+
+    body .container-footer{
+        grid-template-columns:repeat(3, 1fr);
+        text-align:left;
     }
  
 }
@@ -169,7 +174,7 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:1.5rem;
-    background:#ffffff;
+    background-color:#ffffff;
     
 }
 
@@ -199,7 +204,7 @@ header p{
     top:75px;
     right:20px;
     width:220px;
-    background:white;
+    background-color:white;
     border-radius:12px;
     padding:1rem 0;
     box-shadow: 0 10px 30px rgb(0,0,0,0.2);
@@ -243,7 +248,7 @@ header p{
 }
 
 .navMenu a:hover{
-    background:#f8fafc;
+    background-color:#f8fafc;
     transition: color 0.3s;
 }
 
@@ -251,7 +256,7 @@ header p{
 main a{
     display:inline-block;
     padding:14px 28px;
-    background:#25D366;
+    background-color:#25D366;
     text-decoration:none;
     color: #fff;
     border-radius:6px;
@@ -277,7 +282,7 @@ section a {
 }
 
 section:nth-child(even){
-    background:#f0f9ff;
+    background-color:#f0f9ff;
 }
 
 .hero {
@@ -379,7 +384,7 @@ section:nth-child(even){
 }
 
 .apresenta li{
-   background:var(--Fundo);
+   background-color:var(--Fundo);
    padding:32px;
    border:1px solid #e3e3e3;
    border-radius:8px;
@@ -424,7 +429,7 @@ section:nth-child(even){
 
 .numero-card {
     flex: 1 1 120px;
-    background:#ffffff;
+    background-color:#ffffff;
     padding:1.5rem;
     border-radius:12px;
     text-align:center;
@@ -461,7 +466,7 @@ section:nth-child(even){
 .FAQ details{
    
     
-    background:var(--Fundo);
+    background-color:var(--Fundo);
     padding:1.5rem;
     margin-bottom:2rem;
     border-radius:8px;
@@ -491,17 +496,99 @@ section:nth-child(even){
 
 
 footer{
-    padding:4rem 1.5rem 2rem 1.5rem;
+    padding:60px 20px 20px;
     font-size:clamp(14px, 2vw, 16px);
-    background:#0f172a;
+    background-color:#0f172a;
     border-top:1px solid blue;
     
     
     
 }
 
+
+.container-footer{
+    display:grid;
+    grid-template-columns:1fr;
+    border-bottom:1px solid #1e293b;
+    justify-content:center;
+    gap:40px;
+    max-width:1100px;
+    margin:auto 0;
+    padding:2rem 0 2rem 0;
+    text-align:center;
+}
+
+
+
+.marcar-footer{
+    font-size:1.5rem;
+    font-weight:bold;
+    color:#2563eb;
+    margin:0;
+    
+}
+
+.footer-col h3{
+    color:hsl(0, 0%, 100%);
+    margin:0 auto 2rem auto;
+}
+
+address{
+    font-style:normal;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.footer-col {
+    margin:0;
+    color:#94a3b8;
+}
+
+footer ul{
+    list-style:none;
+    padding:0;
+}
+
+footer ul li{
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.lista-contato a{
+    display:inline-block;
+    border:1px solid #25D366;
+    background-color:rgba(37, 211, 102, 0.1);
+    padding: 8px 16px;
+    color:#25D366;
+    font-weight:bold;
+    transition: all 0.3s ease;
+    border-radius:8px;
+}
+
+.lista-contato a:hover{
+    background-color:#25D366;
+    color:#0f172a;
+}
+
+footer a{
+    color:#94a3b8;
+    text-decoration:none;
+    transition:color 0.2s ease;
+}
+
+footer a:hover{
+    color:#fbbf24;
+}
+
+ .footer-bottom{
+    
+    max-width:100%;
+    /* outline:1px solid white; */
+    text-align:center;
+}
+
 footer p{
-    color:white;
+    color:#94a3b8;
 }
 
 footer .copy{
