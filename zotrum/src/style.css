@@ -67,6 +67,12 @@ html {
 
     }
 
+    body section a:hover{
+    transform:scale(1.1);
+    transition: 0.3s;
+   
+}
+
     section div {
 
 
@@ -308,7 +314,7 @@ section {
 
 
 section a:hover{
-    transform:scale(1.1);
+    transform:scale(1.02);
     transition: 0.3s;
    
 }
