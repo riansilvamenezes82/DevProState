@@ -91,6 +91,9 @@ html{
         text-align:left;
     }
 
+    body .rede-col{
+        justify-content:flex-start;
+    }
 }
 
 body {
@@ -502,6 +505,7 @@ footer ul li{
 
 .rede-col{
     display:flex;
+    justify-content:center;
     gap:1rem;
     list-style:none;
 }
