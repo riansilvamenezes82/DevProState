@@ -149,7 +149,7 @@ p{
     }
 
     body .ContainerFAQ .CTA{
-        background-color:none;
+        background:none;
     }
 
     body .container-footer{
@@ -363,7 +363,7 @@ section:nth-child(even){
     justify-content:center;
     justify-self:center;
     max-width:300px;
-    margin:auto;
+    
 }
 
 .servico li{
